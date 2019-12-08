@@ -1,15 +1,10 @@
-# Template para desenvolvimento do Projeto Final
+# AI3 API Server
 
-Este template é composto por 2 projetos base distintos:
-- Aplicação cliente ([Angular](https://angular.io/))
-- API Server ([NodeJS](https://nodejs.org/en/))
+## Available commands for the server.
 
-Ambos os projetos estão desenvolvidos em [Typescript](https://www.typescriptlang.org/) por forma a potenciar o desenvolvimento de código correto em tempo de compilação.
-
-## Desenvolvimento da aplicação cliente
-
-Ver [README do cliente](./client/README.md).
-
-## Desenvolvimento do servidor (API server)
-
-Ver [README do cliente](./server/README.md).
+- Run the server in development mode: `npm run start-dev`.
+- Run all unit-tests: `npm test`.
+- Run a single unit-test: `npm test -- "name of test file (i.e. Users)"`.
+- Check for linting errors: `npm run lint`.
+- Build the project for production: `npm run build`.
+- Run the production build: `npm start`.
